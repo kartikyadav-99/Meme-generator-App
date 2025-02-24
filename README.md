@@ -6,7 +6,7 @@ Search Book App is a React-based web application that allows users to search for
 ## 🚀 Features
 - 🔍 **Search Books**: Users can search for books by title, author, or category.
 - 📚 **Fetch Data from API**: The app retrieves real-time book information from an external API.
-- 📖 **Detailed Book Info**: Displays book details such as title, author, description, and cover image.
+- 📖 **Book Info**: Displays book details such as title, author, description, and cover image.
 - 💾 **Responsive Design**: Works seamlessly on different screen sizes.
 
 ## 🛠️ Tech Stack
