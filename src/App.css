@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #171717;
+  color: #fff;
+}
+
+.input-container {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar {
+  border: none;
+  outline: none;
+  background: #3d3d3d;
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.books {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 5rem;
+}
+
+.book-container {
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.book-container:hover {
+  transform: scale(1.1);
+}
+
+.book-container:hover .overlay {
+  transform: translateY(0%);
+}
+
+.book-img {
+  width: 300px;
+  object-fit: cover;
+  height: 100%;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(1, 1, 1, 0.5);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  transform: translateY(100%);
+  transition: 0.3s ease;
+}
