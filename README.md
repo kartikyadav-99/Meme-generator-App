@@ -1,70 +1,57 @@
-# Meme Generator App
+# Search Book App
 
-## 📌 About the Project
-The **Meme Generator App** is a fun and interactive web application built using **React**. It allows users to fetch random memes from an API and customize them by adding their own text. Whether you're looking to create hilarious memes or express yourself creatively, this app has got you covered!
+## 📖 About the Project
+Search Book App is a React-based web application that allows users to search for books using an external API. The app provides an intuitive and user-friendly interface to explore books by title, author, or keyword.
 
 ## 🚀 Features
-- Fetch random memes from an API.
-- Edit memes by adding custom text.
-- Download or share generated memes.
-- User-friendly and responsive UI.
+- 🔍 **Search Books**: Users can search for books by title, author, or category.
+- 📚 **Fetch Data from API**: The app retrieves real-time book information from an external API.
+- 📖 **Detailed Book Info**: Displays book details such as title, author, description, and cover image.
+- 💾 **Responsive Design**: Works seamlessly on different screen sizes.
 
-## 🛠️ Technologies Used
-- **React** – Frontend framework
-- **TypeScript (if applicable)** – Type safety
-- **CSS / Tailwind CSS** – Styling
-- **Meme API** – Fetching meme images
+## 🛠️ Tech Stack
+- **Frontend**: React.js, TypeScript, Redux (if used)
+- **Styling**: CSS/Tailwind/Bootstrap (depending on your choice)
+- **API**: [Google Books API](https://developers.google.com/books) or any other book API
 
+## 📦 Installation
+Follow these steps to set up the project locally:
 
-
-## 📖 How to Install and Run Locally
-
-### Prerequisites
-Make sure you have **Node.js** and **npm/yarn** installed.
-
-### Installation Steps
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/meme-generator-app.git
-   cd meme-generator-app
+   ```bash
+   git clone https://github.com/your-username/search-book-app.git
+   cd search-book-app
    ```
 2. Install dependencies:
-   ```sh
-   npm install   # or yarn install
+   ```bash
+   npm install
    ```
-3. Start the development server:
-   ```sh
-   npm start   # or yarn start
+3. Create a `.env` file and add your API key:
+   ```env
+   REACT_APP_BOOKS_API_KEY=your_api_key_here
    ```
-4. Open **http://localhost:3000** in your browser to use the app.
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
-## 🖼️ API Used
-This app fetches memes from **[Insert Meme API Name]**. The API provides random meme images, which can then be customized by users.
+## 🌟 Usage
+1. Enter a book title or author in the search bar.
+2. View a list of books matching your search.
+3. Click on a book to view more details.
 
-## 📜 Usage
-1. Click on the **Generate Meme** button to fetch a new meme.
-2. Add custom text (top and bottom captions).
-3. Adjust the text size and position if needed.
-4. Download or share your meme!
 
-## 📌 Future Enhancements
-- Allow users to upload custom images.
-- Add more customization options like font styles, colors, and stickers.
-- Implement a meme-sharing feature.
+
 
 ## 🤝 Contributing
-Contributions are welcome! If you’d like to improve this project:
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-branch-name`
-3. Make your changes and commit: `git commit -m "Your message"`
-4. Push to the branch: `git push origin feature-branch-name`
-5. Open a Pull Request.
+Feel free to contribute by forking the repository and submitting a pull request.
 
 ## 📜 License
-This project is licensed under the **MIT License**.
+This project is licensed under the MIT License.
 
-## 📩 Contact
-If you have any questions or suggestions, feel free to reach out!
-- GitHub: [kartikyadav-99](https://github.com/kartikyadav-99)
-- Email: kartiky211099@gmail.com
+## 🔗 Contact
+For any inquiries, contact me at: [kartiky211099@gmail.com](mailto:kartiky211099@gmail.com)
+
+---
+Made with ❤️ by **Kartik**
 
